@@ -1,0 +1,32 @@
+# Pinned to what this codebase was developed and verified against (Python 3.11).
+# mechir is NOT listed here -- it is vendored at third_party/mechir/ (see README) rather
+# than installed from PyPI, since the public release lacks path-patching support.
+#
+# Install a CUDA-matched torch for your machine FIRST, from
+# https://pytorch.org/get-started/locally/, before installing the rest of this file,
+# if you want GPU support on a cluster (torch==2.14.0 below is a CPU/MPS-only build).
+#
+# spacy additionally requires a downloaded model:
+#   python -m spacy download en_core_web_sm
+#
+# pyterrier requires a JVM (Java 11+) on PATH or via JAVA_HOME.
+
+torch==2.14.0
+transformers==5.17.0
+sentence-transformers==6.1.0
+transformer-lens==3.9.0
+scikit-learn==1.9.1
+numpy==2.4.6
+pandas==3.0.5
+matplotlib==3.11.2
+seaborn==0.13.2
+tqdm==4.70.1
+spacy==3.8.16
+pyterrier==1.1.2
+ir_measures==0.4.3
+
+# Direct dependencies of the vendored mechir/ code (third_party/mechir/):
+jaxtyping==0.3.11
+einops==0.8.2
+huggingface_hub==1.31.0
+typing_extensions==4.16.0
