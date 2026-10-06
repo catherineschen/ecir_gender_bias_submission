@@ -1,0 +1,5 @@
+metric	value
+NFaiRR@5	0.7591
+NFaiRR@10	0.7893
+NFaiRR@20	0.8188
+NFaiRR@50	0.8526

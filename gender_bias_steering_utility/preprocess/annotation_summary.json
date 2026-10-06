@@ -1,0 +1,38 @@
+{
+  "total_candidates_annotated": 21229,
+  "unique_docs_annotated": 20874,
+  "candidates_with_gendered_terms": 4771,
+  "candidates_with_gendered_terms_pct": 22.47,
+  "unique_docs_with_gendered_terms": 4699,
+  "docs_shared_across_queries": 348,
+  "queries_with_fewer_than_5_gendered_docs": {
+    "count": 25,
+    "query_ids": [
+      "1013690",
+      "1042225",
+      "1056170",
+      "1083449",
+      "1086078",
+      "1086814",
+      "1089702",
+      "1092091",
+      "1096098",
+      "1098187",
+      "1099535",
+      "162788",
+      "21049",
+      "271738",
+      "319629",
+      "338660",
+      "356777",
+      "566623",
+      "619055",
+      "660240",
+      "660368",
+      "715610",
+      "776002",
+      "877138",
+      "903304"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+model	pool	MRR@10	nDCG@10	Recall@10	NFaiRR@5	NFaiRR@10	NFaiRR@20	NFaiRR@50
+sentence-transformers/msmarco-distilbert-base-tas-b	cls	0.2117	0.2524	0.3897	0.8616	0.8653	0.8693	0.8728
+sentence-transformers/multi-qa-distilbert-dot-v1	cls	0.2061	0.2401	0.3563	0.8731	0.8715	0.8725	0.8740
+sentence-transformers/multi-qa-MiniLM-L6-dot-v1	cls	0.1934	0.2272	0.3397	0.8615	0.8665	0.8716	0.8755
+sentence-transformers/msmarco-bert-base-dot-v5	mean	0.2430	0.2729	0.3841	0.8665	0.8724	0.8738	0.8751
+sentence-transformers/msmarco-distilbert-dot-v5	mean	0.2202	0.2562	0.3897	0.8671	0.8669	0.8707	0.8747

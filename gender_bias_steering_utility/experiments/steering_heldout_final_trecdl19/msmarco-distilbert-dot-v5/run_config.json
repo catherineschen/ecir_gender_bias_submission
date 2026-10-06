@@ -1,0 +1,71 @@
+{
+  "model": "sentence-transformers/msmarco-distilbert-dot-v5",
+  "short_name": "msmarco-distilbert-dot-v5",
+  "run_levels": [
+    "embed"
+  ],
+  "seed": 42,
+  "dataset": "trecdl",
+  "query_set": "TREC DL 2019 Fair, all 30 queries as zero-shot evaluation",
+  "qrels": "/oscar/data/ceickhof/cchen207/data/msmarco/qrels.trec-dl-2019.ir_datasets.tsv",
+  "min_rel": 2,
+  "alpha_min": -10.0,
+  "alpha_max": 10.0,
+  "alpha_step": 0.5,
+  "beta_min": -14.0,
+  "beta_max": 14.0,
+  "beta_step": 0.5,
+  "attn_steer_scope": "all_positions",
+  "test_queries_split": "trecdl19_all",
+  "n_test_queries": 30,
+  "n_test_queries_subset_requested": null,
+  "candidate_cutoff": 100,
+  "levels": {
+    "attn": {
+      "model": "sentence-transformers/msmarco-distilbert-dot-v5",
+      "short_name": "msmarco-distilbert-dot-v5",
+      "run_levels": [
+        "attn"
+      ],
+      "seed": 42,
+      "dataset": "trecdl",
+      "query_set": "TREC DL 2019 Fair, all 30 queries as zero-shot evaluation",
+      "qrels": "/oscar/data/ceickhof/cchen207/data/msmarco/qrels.trec-dl-2019.ir_datasets.tsv",
+      "min_rel": 2,
+      "alpha_min": -10.0,
+      "alpha_max": 10.0,
+      "alpha_step": 0.5,
+      "beta_min": -14.0,
+      "beta_max": 14.0,
+      "beta_step": 0.5,
+      "attn_steer_scope": "all_positions",
+      "test_queries_split": "trecdl19_all",
+      "n_test_queries": 30,
+      "n_test_queries_subset_requested": null,
+      "candidate_cutoff": 100
+    },
+    "embed": {
+      "model": "sentence-transformers/msmarco-distilbert-dot-v5",
+      "short_name": "msmarco-distilbert-dot-v5",
+      "run_levels": [
+        "embed"
+      ],
+      "seed": 42,
+      "dataset": "trecdl",
+      "query_set": "TREC DL 2019 Fair, all 30 queries as zero-shot evaluation",
+      "qrels": "/oscar/data/ceickhof/cchen207/data/msmarco/qrels.trec-dl-2019.ir_datasets.tsv",
+      "min_rel": 2,
+      "alpha_min": -10.0,
+      "alpha_max": 10.0,
+      "alpha_step": 0.5,
+      "beta_min": -14.0,
+      "beta_max": 14.0,
+      "beta_step": 0.5,
+      "attn_steer_scope": "all_positions",
+      "test_queries_split": "trecdl19_all",
+      "n_test_queries": 30,
+      "n_test_queries_subset_requested": null,
+      "candidate_cutoff": 100
+    }
+  }
+}

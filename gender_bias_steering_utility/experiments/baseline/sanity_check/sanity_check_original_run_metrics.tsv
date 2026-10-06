@@ -1,0 +1,3 @@
+run	query_count	NFaiRR@5	NFaiRR@10	NFaiRR@20	NFaiRR@50
+our_bm25_run	210	0.7999	0.8180	0.8395	0.8588
+original_paper_bm25_run	210	0.7591	0.7893	0.8188	0.8525

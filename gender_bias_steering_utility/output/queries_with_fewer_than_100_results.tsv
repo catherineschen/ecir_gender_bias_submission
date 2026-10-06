@@ -1,0 +1,5 @@
+dataset	qid	num_results	query
+msmarco_passage.dev.fair	1056170	0	what is e.i.n
+msmarco_passage.dev.fair	773786	13	what is motorboating
+msmarco_passage.dev.fair	776002	16	what is neocate
+trecdeep19_passage.fair	855410	5	what is theraderm used for

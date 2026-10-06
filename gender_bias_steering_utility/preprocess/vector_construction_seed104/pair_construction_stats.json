@@ -1,0 +1,44 @@
+{
+  "total_docs": 500,
+  "docs_with_gendered_terms": 117,
+  "docs_valid_mf_pair": 92,
+  "docs_dropped_mf_ambiguous_or_unmapped": 25,
+  "docs_with_n_coverage": 92,
+  "docs_without_n_coverage": 0,
+  "docs_excluded_from_n_solely_due_to_sir_madam": 0,
+  "valid_pairs_per_model": {
+    "sentence-transformers/msmarco-distilbert-dot-v5": {
+      "mvf": 92,
+      "mvn": 92,
+      "fvn": 92
+    },
+    "sebastian-hofstaetter/distilbert-dot-tas_b-b256-msmarco": {
+      "mvf": 92,
+      "mvn": 92,
+      "fvn": 92
+    },
+    "sentence-transformers/multi-qa-distilbert-dot-v1": {
+      "mvf": 92,
+      "mvn": 92,
+      "fvn": 92
+    },
+    "sentence-transformers/multi-qa-MiniLM-L6-dot-v1": {
+      "mvf": 92,
+      "mvn": 92,
+      "fvn": 92
+    },
+    "sentence-transformers/msmarco-bert-base-dot-v5": {
+      "mvf": 92,
+      "mvn": 92,
+      "fvn": 92
+    }
+  },
+  "her_pos_resolution": {
+    "recovery_candidates": 23,
+    "docs_recovered": 23,
+    "docs_still_dropped_unexpected_tag": 0,
+    "occurrences_resolved_prp_object": 8,
+    "occurrences_resolved_prp_dollar_possessive": 23,
+    "occurrences_unresolved_unexpected_tag": 0
+  }
+}

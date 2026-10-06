@@ -1,0 +1,557 @@
+{
+  "n_construction": 5,
+  "seed": 29,
+  "construction_query_count": 5,
+  "test_query_count": 210,
+  "candidate_counts": {
+    "construction_before_dedup": 500,
+    "construction_after_dedup": 500,
+    "test_before_dedup": 20729,
+    "test_after_dedup": 20670
+  },
+  "overlap": {
+    "overlapping_doc_count": 59,
+    "test_candidates_affected_count": 59,
+    "test_candidates_affected_pct": 0.28,
+    "removed_from": "test",
+    "removed_row_count": 59
+  },
+  "removed_docs": [
+    {
+      "doc_id": "1167096",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 29
+        }
+      ]
+    },
+    {
+      "doc_id": "1167100",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 53
+        }
+      ]
+    },
+    {
+      "doc_id": "1167102",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 41
+        }
+      ]
+    },
+    {
+      "doc_id": "1254681",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 90
+        }
+      ]
+    },
+    {
+      "doc_id": "1265735",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "doc_id": "1369671",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 48
+        }
+      ]
+    },
+    {
+      "doc_id": "1651008",
+      "occurrences": [
+        {
+          "query_id": "487077",
+          "rank": 14
+        }
+      ]
+    },
+    {
+      "doc_id": "1785465",
+      "occurrences": [
+        {
+          "query_id": "487077",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "doc_id": "2059616",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 92
+        }
+      ]
+    },
+    {
+      "doc_id": "2355207",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 88
+        }
+      ]
+    },
+    {
+      "doc_id": "2397638",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 66
+        }
+      ]
+    },
+    {
+      "doc_id": "2453482",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 25
+        }
+      ]
+    },
+    {
+      "doc_id": "2690010",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "doc_id": "2824911",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 37
+        }
+      ]
+    },
+    {
+      "doc_id": "2824913",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 44
+        }
+      ]
+    },
+    {
+      "doc_id": "2943295",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "doc_id": "3270559",
+      "occurrences": [
+        {
+          "query_id": "487077",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "3283022",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "doc_id": "3292465",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "doc_id": "3425353",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 80
+        }
+      ]
+    },
+    {
+      "doc_id": "3425354",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 63
+        }
+      ]
+    },
+    {
+      "doc_id": "3560132",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 74
+        }
+      ]
+    },
+    {
+      "doc_id": "4047088",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 24
+        }
+      ]
+    },
+    {
+      "doc_id": "4104902",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 33
+        }
+      ]
+    },
+    {
+      "doc_id": "423520",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 73
+        }
+      ]
+    },
+    {
+      "doc_id": "4276349",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 50
+        }
+      ]
+    },
+    {
+      "doc_id": "4502255",
+      "occurrences": [
+        {
+          "query_id": "523604",
+          "rank": 86
+        }
+      ]
+    },
+    {
+      "doc_id": "4593974",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 45
+        }
+      ]
+    },
+    {
+      "doc_id": "4605848",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 77
+        }
+      ]
+    },
+    {
+      "doc_id": "472978",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 68
+        }
+      ]
+    },
+    {
+      "doc_id": "5328447",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 96
+        }
+      ]
+    },
+    {
+      "doc_id": "5555081",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 100
+        }
+      ]
+    },
+    {
+      "doc_id": "5674465",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 52
+        }
+      ]
+    },
+    {
+      "doc_id": "5817179",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "doc_id": "5817182",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "6040400",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 47
+        }
+      ]
+    },
+    {
+      "doc_id": "6040406",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 76
+        }
+      ]
+    },
+    {
+      "doc_id": "6434143",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 54
+        }
+      ]
+    },
+    {
+      "doc_id": "6486608",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 26
+        }
+      ]
+    },
+    {
+      "doc_id": "6592383",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 27
+        }
+      ]
+    },
+    {
+      "doc_id": "6778515",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 72
+        }
+      ]
+    },
+    {
+      "doc_id": "6783836",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 91
+        }
+      ]
+    },
+    {
+      "doc_id": "6783837",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 97
+        }
+      ]
+    },
+    {
+      "doc_id": "7400320",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 46
+        }
+      ]
+    },
+    {
+      "doc_id": "7490950",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 60
+        }
+      ]
+    },
+    {
+      "doc_id": "7632691",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 70
+        }
+      ]
+    },
+    {
+      "doc_id": "8007812",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 59
+        }
+      ]
+    },
+    {
+      "doc_id": "8007813",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 28
+        }
+      ]
+    },
+    {
+      "doc_id": "811198",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 42
+        }
+      ]
+    },
+    {
+      "doc_id": "8262926",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 67
+        }
+      ]
+    },
+    {
+      "doc_id": "8469835",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 49
+        }
+      ]
+    },
+    {
+      "doc_id": "84795",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 89
+        }
+      ]
+    },
+    {
+      "doc_id": "84800",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 32
+        }
+      ]
+    },
+    {
+      "doc_id": "8676282",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 75
+        }
+      ]
+    },
+    {
+      "doc_id": "8676284",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 65
+        }
+      ]
+    },
+    {
+      "doc_id": "8798589",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 19
+        }
+      ]
+    },
+    {
+      "doc_id": "929957",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "doc_id": "943643",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 43
+        }
+      ]
+    },
+    {
+      "doc_id": "943647",
+      "occurrences": [
+        {
+          "query_id": "1094287",
+          "rank": 23
+        }
+      ]
+    }
+  ],
+  "removed_doc_rank_stats": {
+    "min": 1,
+    "median": 48,
+    "max": 100
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "n_construction": 5,
+  "seed": 996,
+  "construction_query_count": 5,
+  "test_query_count": 210,
+  "candidate_counts": {
+    "construction_before_dedup": 500,
+    "construction_after_dedup": 500,
+    "test_before_dedup": 20729,
+    "test_after_dedup": 20723
+  },
+  "overlap": {
+    "overlapping_doc_count": 3,
+    "test_candidates_affected_count": 6,
+    "test_candidates_affected_pct": 0.03,
+    "removed_from": "test",
+    "removed_row_count": 6
+  },
+  "removed_docs": [
+    {
+      "doc_id": "7906826",
+      "occurrences": [
+        {
+          "query_id": "469060",
+          "rank": 73
+        },
+        {
+          "query_id": "645676",
+          "rank": 71
+        }
+      ]
+    },
+    {
+      "doc_id": "7906829",
+      "occurrences": [
+        {
+          "query_id": "469060",
+          "rank": 65
+        },
+        {
+          "query_id": "645676",
+          "rank": 61
+        }
+      ]
+    },
+    {
+      "doc_id": "7906830",
+      "occurrences": [
+        {
+          "query_id": "469060",
+          "rank": 68
+        },
+        {
+          "query_id": "645676",
+          "rank": 65
+        }
+      ]
+    }
+  ],
+  "removed_doc_rank_stats": {
+    "min": 61,
+    "median": 66.5,
+    "max": 73
+  }
+}

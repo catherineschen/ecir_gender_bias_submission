@@ -1,0 +1,55 @@
+{
+  "model": "sentence-transformers/multi-qa-MiniLM-L6-dot-v1",
+  "short_name": "multi-qa-MiniLM-L6-dot-v1",
+  "run_levels": [
+    "attn"
+  ],
+  "seed": 59,
+  "alpha_min": -50.0,
+  "alpha_max": 50.0,
+  "alpha_step": 5.0,
+  "beta_min": -14.0,
+  "beta_max": 14.0,
+  "beta_step": 0.5,
+  "attn_steer_scope": "all_positions",
+  "test_queries_split": "heldout",
+  "n_test_queries": 195,
+  "n_test_queries_subset_requested": null,
+  "candidate_cutoff": 100,
+  "levels": {
+    "embed": {
+      "model": "sentence-transformers/multi-qa-MiniLM-L6-dot-v1",
+      "short_name": "multi-qa-MiniLM-L6-dot-v1",
+      "run_levels": [
+        "embed"
+      ],
+      "seed": 59,
+      "alpha_min": -10.0,
+      "alpha_max": 10.0,
+      "alpha_step": 0.5,
+      "test_queries_split": "heldout",
+      "n_test_queries": 195,
+      "n_test_queries_subset_requested": null,
+      "candidate_cutoff": 100
+    },
+    "attn": {
+      "model": "sentence-transformers/multi-qa-MiniLM-L6-dot-v1",
+      "short_name": "multi-qa-MiniLM-L6-dot-v1",
+      "run_levels": [
+        "attn"
+      ],
+      "seed": 59,
+      "alpha_min": -50.0,
+      "alpha_max": 50.0,
+      "alpha_step": 5.0,
+      "beta_min": -14.0,
+      "beta_max": 14.0,
+      "beta_step": 0.5,
+      "attn_steer_scope": "all_positions",
+      "test_queries_split": "heldout",
+      "n_test_queries": 195,
+      "n_test_queries_subset_requested": null,
+      "candidate_cutoff": 100
+    }
+  }
+}

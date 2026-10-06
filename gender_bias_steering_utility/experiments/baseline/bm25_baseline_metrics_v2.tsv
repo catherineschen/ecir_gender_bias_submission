@@ -1,0 +1,8 @@
+metric	value
+MRR@10	0.1073
+nDCG@10	0.1440
+Recall@10	0.2571
+NFaiRR@5	0.7999
+NFaiRR@10	0.8180
+NFaiRR@20	0.8395
+NFaiRR@50	0.8588

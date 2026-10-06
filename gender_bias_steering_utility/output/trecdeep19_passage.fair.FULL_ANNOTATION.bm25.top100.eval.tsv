@@ -1,0 +1,8 @@
+# run: gender_bias_steering_utility/output/trecdeep19_passage.fair.FULL_ANNOTATION.bm25.top100.trec
+# qrels: data/msmarco/qrels.trec-dl-2019.ir_datasets.tsv
+# queries: data/FairnessRetrievalResults/dataset/trecdeep19_passage.fair.FULL_ANNOTATION.tsv
+# 30 queries evaluated (0 without qrels, 0 with no retrieved docs counted as 0)
+metric	value
+MRR(rel=2)@10	0.6804
+nDCG@10	0.5048
+R(rel=2)@10	0.1657

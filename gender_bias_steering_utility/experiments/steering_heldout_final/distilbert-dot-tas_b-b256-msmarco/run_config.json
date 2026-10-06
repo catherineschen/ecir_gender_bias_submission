@@ -1,0 +1,54 @@
+{
+  "model": "sebastian-hofstaetter/distilbert-dot-tas_b-b256-msmarco",
+  "short_name": "distilbert-dot-tas_b-b256-msmarco",
+  "run_levels": [
+    "attn"
+  ],
+  "seed": 42,
+  "alpha_min": -50.0,
+  "alpha_max": 50.0,
+  "alpha_step": 5.0,
+  "beta_min": -14.0,
+  "beta_max": 14.0,
+  "beta_step": 0.5,
+  "attn_steer_scope": "all_positions",
+  "test_queries_split": "heldout",
+  "n_test_queries": 195,
+  "n_test_queries_subset_requested": null,
+  "candidate_cutoff": 100,
+  "levels": {
+    "embed": {
+      "model": "sebastian-hofstaetter/distilbert-dot-tas_b-b256-msmarco",
+      "short_name": "distilbert-dot-tas_b-b256-msmarco",
+      "run_levels": [
+        "embed"
+      ],
+      "alpha_min": -10.0,
+      "alpha_max": 10.0,
+      "alpha_step": 0.5,
+      "test_queries_split": "heldout",
+      "n_test_queries": 195,
+      "n_test_queries_subset_requested": null,
+      "candidate_cutoff": 100
+    },
+    "attn": {
+      "model": "sebastian-hofstaetter/distilbert-dot-tas_b-b256-msmarco",
+      "short_name": "distilbert-dot-tas_b-b256-msmarco",
+      "run_levels": [
+        "attn"
+      ],
+      "seed": 42,
+      "alpha_min": -50.0,
+      "alpha_max": 50.0,
+      "alpha_step": 5.0,
+      "beta_min": -14.0,
+      "beta_max": 14.0,
+      "beta_step": 0.5,
+      "attn_steer_scope": "all_positions",
+      "test_queries_split": "heldout",
+      "n_test_queries": 195,
+      "n_test_queries_subset_requested": null,
+      "candidate_cutoff": 100
+    }
+  }
+}
