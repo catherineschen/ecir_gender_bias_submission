@@ -1,5 +1,5 @@
 # run: gender_bias_steering_utility/output/msmarco_passage.dev.fair.FULL_ANNOTATION.bm25.top100.trec
-# qrels: /Users/catherinechen/git/data/msmarco/qrels.dev.ir_datasets.tsv
+# qrels: data/msmarco/qrels.dev.ir_datasets.tsv
 # queries: data/FairnessRetrievalResults/dataset/msmarco_passage.dev.fair.FULL_ANNOTATION.tsv
 # 215 queries evaluated (0 without qrels, 1 with no retrieved docs counted as 0)
 metric	value

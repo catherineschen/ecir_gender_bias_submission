@@ -1,6 +1,6 @@
 {
   "query_set": "test (210 queries); original paper BM25 run as both retrievalresults and background_doc_set (SET_Top200 setup)",
-  "neutrality_scores": "/Users/catherinechen/git/gender_bias_steering_utility/experiments/baseline/collection_neutralityscores_v2.tsv",
+  "neutrality_scores": "gender_bias_steering_utility/experiments/baseline/collection_neutralityscores_v2.tsv",
   "NFaiRR@5": {
     "20801": 0.7860137352654724,
     "21049": 1.0,
